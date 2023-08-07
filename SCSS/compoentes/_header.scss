@@ -1,0 +1,82 @@
+header{
+    width: 100%;
+    background: rgb(155, 75, 230);
+
+    #botonMenu{
+        display: none;
+    }
+
+    label{
+        display: none;
+        width: 30px;
+        height: 30px;
+        padding: 10px;
+        border-right: 1px solid #fff;
+    }
+
+    label:hover{
+        cursor: pointer;
+        background: rgba(0, 0, 0, 0.3)
+    }
+}
+
+nav{
+    figure{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: left;
+
+    img{
+        width: auto;
+        height: 50px;
+        margin-bottom: 0;
+        padding: left 20;
+    }
+   }  
+   
+   .menu ul{
+    margin: 0;
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+
+    li{
+        border-right: 1px solid #fff;
+
+        a{
+            display: inline-block;
+            padding: 15px 20px;
+            color: #fff;
+            text-decoration: none;
+        }
+
+        hover{
+            background: rgba(0, 0, 0, 0.3)
+        }
+    }
+}
+}
+
+@media (max-width: 768px) {
+    header label {
+      display: block;
+    }
+    .menu {
+      position: absolute;
+      background: rgb(155, 75, 230);
+      width: 70%;
+      margin-left: -70%;
+      transition: 0.5s;
+      ul {
+        flex-direction: column;
+        li {
+          border-top: 1px solid #fff;
+        }
+      }
+    }
+    #botonMenu:checked ~ .menu {
+      margin: 0;
+    }
+  }
