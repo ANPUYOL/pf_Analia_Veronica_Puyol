@@ -1,3 +1,10 @@
+* {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  box-sizing: content-box;
+}
+
 header {
   width: 100%;
   background: rgb(155, 75, 230);
@@ -100,7 +107,7 @@ footer .container img {
   height: auto;
   width: 50px;
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
 }
 footer .container .grupo-2 {
   height: 45px;
@@ -108,4 +115,5 @@ footer .container .grupo-2 {
   padding-bottom: 10px;
   margin-left: 25px;
   margin-top: 0;
-}/*# sourceMappingURL=styles.css.map */
+}
+/*# sourceMappingURL=styles.css.map */
