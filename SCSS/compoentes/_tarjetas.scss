@@ -1,0 +1,64 @@
+.tarjetas {
+    padding-bottom: 50px;
+    .container {
+        display: flex;
+        gap: 20px;
+        .column-1,
+        .column-2,
+        .column-3 {
+            flex: 1;
+        }
+        .column-1,
+        .column-3 {
+            display: flex;
+            align-items: center;
+        }
+        .box {
+            background: #fff;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            hr {
+                height: 5px;
+                border: none;
+            }
+            h4 {
+                margin-top: 30px;
+            }
+            h4,
+            p {
+                margin-left: 30px;
+                margin-right: 30px;
+            }
+            .box-image {
+                display: flex;
+                justify-content: flex-end;
+            }
+            img {
+                margin: 30px;
+            }
+        } //End .box
+        .box-1 hr {
+            background-color: greenyellow;
+        }
+        .box-2 hr {
+            background-color: aqua;
+        }
+        .box-3 hr {
+            background-color: blue;
+            margin-top: 20px;
+        }
+        .box-4 hr {
+            background-color:brown;
+        }
+    } //End .container
+} //End .four-card
+
+
+@media (max-width: 768px) {
+
+    .tarjetas {
+        .container {
+            flex-direction: column;
+            gap: 20px;
+        }
+    }
+}
