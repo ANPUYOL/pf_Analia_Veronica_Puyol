@@ -1,6 +1,6 @@
 footer {
     background-color: rgb(168, 121, 213);
-    width: 100 px;
+    width: auto;
     .box {
         width: auto;
         height: 40px;
@@ -37,3 +37,22 @@ footer {
       }
   }
 }
+
+@media (max-width: 768px) {
+  footer{
+    .box{
+    display: flex;
+  }
+  grupo-2{
+      flex-direction: column;
+      text-align: center;
+    }
+    .container{
+      .row{
+        grid-template-rows: auto;
+        margin: 0;
+        padding: 5px;
+      }
+    }
+      }
+    }
