@@ -94,6 +94,8 @@ nav #check {
 }
 footer {
   background-color: rgb(168, 121, 213);
+  left: 0;
+  bottom: 0;
   width: auto;
   height: 80 px;
 }
@@ -211,7 +213,7 @@ footer .box h2 {
 }
 
 section {
-  height: calc(100vh - 160px);
+  width: auto;
 .imagenPilares {
   padding: 150px 50px 50px 170px;
   height: auto;
@@ -289,13 +291,14 @@ figure {
 
 section {
   width: 100%;
-  height: 700px;
+  height: 784%;
   background-image: url(), linear-gradient(to right, rgb(105, 187, 212), rgba(255, 255, 255, 0));
   background-repeat: no-repeat, no-repeat, no-repeat;
   background-position: bottom right, left, right;
 }
 
-section h1 {
+
+  section h1 {
   text-align: center;
 }
 section h2 {
