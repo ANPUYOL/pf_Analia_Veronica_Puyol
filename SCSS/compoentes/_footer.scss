@@ -1,13 +1,12 @@
 footer {
     background-color: rgb(168, 121, 213);
     width: auto;
+    height: 80 px;
     .box {
         width: auto;
         height: 40px;
         padding-top: 10px;
-        .titulo {
-            margin-right: 150px;
-          h2 {
+                h2 {
                 padding-bottom: 10px;
               }
           }
@@ -36,7 +35,7 @@ footer {
         margin-top: 0;
       }
   }
-}
+
 
 @media (max-width: 768px) {
   footer{
@@ -45,7 +44,7 @@ footer {
   }
   grupo-2{
       flex-direction: column;
-      text-align: center;
+      align-items: center;
     }
     .container{
       .row{

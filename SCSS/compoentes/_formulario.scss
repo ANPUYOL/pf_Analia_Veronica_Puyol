@@ -1,15 +1,14 @@
-h1{ text-align: center;
-padding-top: 20px;}
+
 figure{
     align-items: center;
 }
-section{
+section{content: ;
     width: 100%;
-  height:700px;
-  background-image: url(/Imagenes_pf/logo-alldata-medio.png), linear-gradient(to right, rgb(115, 30, 41), rgba(255, 255, 255, 0));
+    height: calc(100vh - 160px)
+  background-: , linear-gradient(to right, rgb(115, 30, 41), rgba(255, 255, 255, 0));
   background-repeat: no-repeat, no-repeat, no-repeat;
   background-position:
     bottom right,
     left,
     right;
-   }
+  }
